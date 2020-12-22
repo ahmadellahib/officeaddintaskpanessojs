@@ -7035,7 +7035,8 @@ var msalConfig = {
     clientId: "f56c409e-2973-43dd-aea9-8067a220d997",
     //This is your client ID
     authority: "https://login.microsoftonline.com/common",
-    redirectUri: "https://localhost:3000/fallbackauthdialog.html",
+    redirectUri: "https://ahmadellahib.github.io/officeaddintaskpanessojs/fallbackauthdialog.html",
+    //"https://localhost:3000/fallbackauthdialog.html",
     navigateToLoginRequestUrl: false
   },
   cache: {
