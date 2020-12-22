@@ -19935,7 +19935,8 @@ var sso = __webpack_require__(/*! office-addin-sso */ "./node_modules/office-add
 var loginDialog;
 function dialogFallback() {
   // We fall back to Dialog API for any error.
-  var url = "/fallbackauthdialog.html";
+  var url = "/officeaddintaskpanessojs/fallbackauthdialog.html"; //"/fallbackauthdialog.html";
+
   showLoginPopup(url);
 } // This handler responds to the success or failure message that the pop-up dialog receives from the identity provider
 // and access token provider.
